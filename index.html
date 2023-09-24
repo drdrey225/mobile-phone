@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+
+   <title>Mobile Phone</title>
+</head>
+<body>
+   
+   <button class="btnVolumeUp"></button>
+   <button class="btnVolumeDown"></button>
+   <div class="phoneCase">
+      <div class="innerBox">
+      <div class="innerBox2"></div>
+         
+      </div>
+   </div>
+   <button class="btnPower" onclick="powerBtn()"></button>
+   <h3>Click on <br>power button<br>to turn on <br>the phone!</h3>
+
+   <script>
+      const powerBtn = () => {
+         window.location.href = 'lockscreen.html'
+      }
+   </script>
+</body>
+</html>

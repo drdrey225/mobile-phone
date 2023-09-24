@@ -1,0 +1,135 @@
+body {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.phoneCase {
+   position: relative;
+   height: 87vh;
+   width: 47vh;
+   border-radius: 58px;
+   display: flex;
+   justify-content: center;
+   padding-top: 16px;
+   background-color: black;
+   box-shadow: 1px 1px 15px rgb(109, 106, 106);
+}
+
+.innerBox {
+   position: relative;
+   border-radius: 40px;
+   height: 85vh;
+   width: 43vh;
+   background-image: url(img/jjj.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.innerBox2 {
+   position: relative;
+   left: 76px;
+   height: 25px;
+   width: 150px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   background-color: black;
+   z-index: 99;
+}
+
+.btnVolumeUp {
+   position: relative;
+   background-color: black;
+   left: 20px;
+   margin-top: 130px;
+   height: 8vh;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   cursor: pointer;
+   border: none;
+}
+
+.btnVolumeDown {
+   position: relative;
+   background-color: black;
+   top: 64px;
+   left: 8px;
+   margin-top: 130px;
+   height: 8vh;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   cursor: pointer;
+   border: none;
+}
+
+.btnPower {
+   position: relative;
+   background-color: black;
+   border: none;
+   top: 15px;
+   right: 7px;
+   margin-top: 130px;
+   height: 11vh;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   cursor: pointer;
+}
+
+.swipeBtn{
+   position: relative;
+   /* top: 520px; */
+   left: 25%;
+   padding: 1px 75px;
+   cursor: pointer;
+}
+
+.torchCamBox {
+   /* border: 1px solid red; */
+   position: relative;
+   /* top: 300px; */
+   /* height: 5vh; */
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 20px;
+   margin-bottom: 20px;
+}
+
+.wifiBattery{
+   margin-top: -22px;
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 24px;
+}
+.mtn{
+   color: whitesmoke;
+   padding-left: 10px;
+   font-size: 15px;
+   margin-top: 2px;
+}
+
+.lockFlex{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 95%;
+}
+
+.btn{
+   border-radius: 50px;
+   border: none;
+   background: transparent;
+   cursor: pointer;
+}
+
+.timeLock{
+   /* border: 1px solid red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   gap: 8px;
+   color: white;
+   font-size: 19px;
+}

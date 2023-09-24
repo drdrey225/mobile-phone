@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css" />
+    <title>Mobile Phone</title>
+  </head>
+  <body>
+    <button class="btnVolumeUp"></button>
+    <button class="btnVolumeDown"></button>
+    <div class="phoneCase">
+      <div class="innerBox">
+        <div class="innerBox2"></div>
+
+        <div class="wifiBattery">
+          <div id="time"></div>
+          <div style="padding: 0px 26px">
+            <i class="fa-solid fa-signal fa-2xs" style="color: whitesmoke"></i>
+            <i class="fa-solid fa-wifi fa-2xs" style="color: #f1f2f4"></i>
+            <i
+              class="fa-solid fa-battery-three-quarters"
+              style="color: whitesmoke"
+            ></i>
+          </div>
+        </div>
+
+        <div class="homebtnbox">
+          <div class="homebtn">
+            <button class="homeBtn-Btn" onclick="todo()">
+              <img
+                src="img/png-transparent-todoist-wunderlist-task-android-logo-action-item-symbol.png"
+                alt="todo"
+                width="40px"
+                style="border-radius: 10px;"
+                id="todo"
+              />
+              <p style="color: white;">Todo</p>
+            </button>
+
+            <button class="homeBtn-Btn" onclick="gradingSys()">
+               <img src="img/grading02.png" alt="grade" width="42px">
+               <p style="color: white;">Grading</p>
+            </button>
+
+            <button class="homeBtn-Btn" onclick="weatherApp()">
+               <img src="img/weather02.png" alt="" width="42px">
+               <p style="color: white;">Weather</p> 
+            </button>
+
+            <button class="homeBtn-Btn" onclick="bulbSwitch()">
+               <img src="img/bulb.jpg" alt="bulb" width="42px" style="border-radius: 10px;">
+               <p style="color: white;">Bulb</p>
+            </button>
+
+            <button class="homeBtn-Btn" onclick="eCommerce()">
+               <img src="img/ecommerce-logo-icon-free-vector.jpg" alt="" width="42px" style="border-radius: 10px;">
+               <p style="color: white;">Shop</p>
+            </button>
+            
+            <button class="homeBtn-Btn" onclick="loveCal()">
+               <img src="img/love cal.png" alt="love" width="42px" style="border-radius: 10px;">
+               <p style="color: white;">Love Cal</p>
+            </button>
+
+            <button class="homeBtn-Btn" onclick="calculator()">
+               <img src="img/calculator.png" alt="calc" width="42px" style="border-radius: 10px;">
+               <p style="color: white;">Calculator</p>
+            </button>
+
+            <button class="homeBtn-Btn" onclick="budgetapp()">
+               <img src="img/budgeting (3).png" alt="" width="42px" style="border-radius: 10px;">
+               <p style="color: white;">Budget</p>
+            </button>
+          </div>
+
+          <div class="footerBtnBox">
+            <button class="footerBtn-Btn" onclick="phoneCall()">
+               <img src="img/call.png" alt="call" width="42px" style="border-radius: 10px;">
+            </button>
+            <button class="footerBtn-Btn" onclick="safari()">
+               <img src="img/safari.png" alt="safari" width="42px" style="border-radius: 10px;">
+            </button>
+            <button class="footerBtn-Btn" onclick="camera()">
+               <img src="img/cam.png" alt="cam" width="42px" style="border-radius: 10px;">
+            </button>
+            <button class="footerBtn-Btn" onclick="photos()">
+               <img src="img/photos.png" alt="photos" width="42px" style="border-radius: 10px;">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btnPower" onclick="powerBtn()"></button>
+    <!-- <h3>Click on <br>power button<br>to turn on <br>the phone!</h3> -->
+
+    <script src="home.js"></script>
+  </body>
+</html>

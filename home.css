@@ -1,0 +1,134 @@
+body {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+.phoneCase {
+   position: relative;
+   height: 87vh;
+   width: 47vh;
+   border-radius: 58px;
+   display: flex;
+   justify-content: center;
+   padding-top: 16px;
+   background-color: rgb(3, 3, 3);
+   box-shadow: 1px 1px 15px rgb(109, 106, 106);
+}
+
+.innerBox {
+   position: relative;
+   border-radius: 40px;
+   height: 85vh;
+   width: 43vh;
+   background-position: center;
+   background-size: cover;
+   background-image: url(couple.jpg);
+   overflow: hidden;
+}
+
+.innerBox2 {
+   position: relative;
+   left: 76px;
+   height: 25px;
+   width: 150px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   background-color: black;
+}
+
+.btnVolumeUp {
+   position: relative;
+   background-color: black;
+   left: 20px;
+   margin-top: 130px;
+   height: 8vh;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   cursor: pointer;
+   border: none;
+}
+
+.btnVolumeDown {
+   position: relative;
+   background-color: black;
+   top: 64px;
+   left: 8px;
+   margin-top: 130px;
+   height: 8vh;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   cursor: pointer;
+   border: none;
+}
+
+.btnPower {
+   position: relative;
+   background-color: black;
+   border: none;
+   top: 15px;
+   right: 7px;
+   margin-top: 130px;
+   height: 11vh;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   cursor: pointer;
+}
+
+.wifiBattery {
+   margin-top: -22px;
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   /* padding: 0px 24px; */
+   color: white;
+}
+
+#time{
+   padding-left: 19px;
+}
+.homebtnbox {
+   /* border: 1px solid red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 89%;
+   padding: 25px 10px;
+   backdrop-filter: blur(5px);
+}
+.homebtn{
+   /* border: 1px solid yellow; */
+   height: 40%;
+   /* padding: 5px; */
+}
+
+.homeBtn-Btn {
+   background: none;
+   cursor: pointer;
+   border: none;
+   /* border: 1px solid red; */
+   border-radius: 0px;
+   margin-bottom: 30px;
+   width: 67px;
+   /* margin-right: 5px; */
+}
+
+.footerBtnBox{
+   /* border: 1px solid rgb(56, 187, 176); */
+   display: flex;
+   justify-content: space-around;
+   border-radius: 17px;
+   padding: 9px;
+   background-color: rgb(57, 57, 57);
+}
+
+.footerBtn-Btn {
+   border: none;
+   border-radius: 10px;
+   /* width: 60px; */
+   cursor: pointer;
+   background: none;
+}
+
+
+
